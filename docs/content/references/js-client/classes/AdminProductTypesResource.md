@@ -24,4 +24,4 @@
 
 #### Defined in
 
-[medusa-js/src/resources/admin/product-types.ts:10](https://github.com/medusajs/medusa/blob/0b0d50b47/packages/medusa-js/src/resources/admin/product-types.ts#L10)
+[medusa-js/src/resources/admin/product-types.ts:10](https://github.com/productinfo/medusa/blob/e4e65812/packages/medusa-js/src/resources/admin/product-types.ts#L10)
