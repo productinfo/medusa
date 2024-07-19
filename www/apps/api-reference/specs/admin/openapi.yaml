@@ -238,6 +238,8 @@ paths:
     $ref: paths/admin_products.yaml
   /admin/products/batch:
     $ref: paths/admin_products_batch.yaml
+  /admin/products/export:
+    $ref: paths/admin_products_export.yaml
   /admin/products/{id}:
     $ref: paths/admin_products_{id}.yaml
   /admin/products/{id}/options:
@@ -292,8 +294,18 @@ paths:
     $ref: paths/admin_returns_{id}.yaml
   /admin/returns/{id}/cancel:
     $ref: paths/admin_returns_{id}_cancel.yaml
+  /admin/returns/{id}/dismiss-items:
+    $ref: paths/admin_returns_{id}_dismiss-items.yaml
+  /admin/returns/{id}/dismiss-items/{action_id}:
+    $ref: paths/admin_returns_{id}_dismiss-items_{action_id}.yaml
   /admin/returns/{id}/receive:
     $ref: paths/admin_returns_{id}_receive.yaml
+  /admin/returns/{id}/receive-items:
+    $ref: paths/admin_returns_{id}_receive-items.yaml
+  /admin/returns/{id}/receive-items/{action_id}:
+    $ref: paths/admin_returns_{id}_receive-items_{action_id}.yaml
+  /admin/returns/{id}/receive/confirm:
+    $ref: paths/admin_returns_{id}_receive_confirm.yaml
   /admin/returns/{id}/request:
     $ref: paths/admin_returns_{id}_request.yaml
   /admin/returns/{id}/request-items:
