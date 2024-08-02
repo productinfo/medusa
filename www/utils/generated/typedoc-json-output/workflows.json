@@ -136,7 +136,27 @@
 						"summary": [
 							{
 								"kind": "text",
-								"text": "Define a workflow hook to be executed within steps. The created hook\nis exposed publicly for the workflow consumers to inject and run\ncustom logic.\n\nHooks behaves like steps"
+								"text": "Expose a hook in your workflow where you can inject custom functionality as a step function. \n\nA handler hook can later be registered to consume the hook and perform custom functionality.\n\nLearn more in [this documentation](https://docs.medusajs.com/v2/advanced-development/workflows/add-workflow-hook)."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "A workflow hook."
+									}
+								]
+							},
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```ts\nimport {\n  createStep,\n  createHook,\n  createWorkflow,\n  WorkflowResponse,\n} from \"@medusajs/workflows-sdk\"\nimport { createProductStep } from \"./steps/create-product\"\n\nexport const myWorkflow = createWorkflow(\n  \"my-workflow\", \n  function (input) {\n    const product = createProductStep(input)\n    const productCreatedHook = createHook(\n      \"productCreated\", \n      { productId: product.id }\n    )\n\n    return new WorkflowResponse(product, {\n      hooks: [productCreatedHook],\n    })\n  }\n)\n```"
+									}
+								]
 							}
 						]
 					},
@@ -167,6 +187,14 @@
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The hook's name. This is used when the hook handler is registered to consume the workflow."
+									}
+								]
+							},
 							"type": {
 								"type": "reference",
 								"target": 18647,
@@ -181,6 +209,14 @@
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The input to pass to the hook handler."
+									}
+								]
+							},
 							"type": {
 								"type": "reference",
 								"target": 18648,
@@ -5186,6 +5222,14 @@
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "This method executes the workflow as a step. Useful when running a workflow within another.\n\nLearn more in [this documentation](https://docs.medusajs.com/v2/advanced-development/workflows/execute-another-workflow)."
+											}
+										]
+									},
 									"type": {
 										"type": "reflection",
 										"declaration": {
@@ -5201,6 +5245,20 @@
 													"variant": "signature",
 													"kind": 4096,
 													"flags": {},
+													"comment": {
+														"summary": [],
+														"blockTags": [
+															{
+																"tag": "@returns",
+																"content": [
+																	{
+																		"kind": "text",
+																		"text": "The workflow's result"
+																	}
+																]
+															}
+														]
+													},
 													"parameters": [
 														{
 															"id": 18824,
@@ -5223,6 +5281,14 @@
 																			"variant": "declaration",
 																			"kind": 1024,
 																			"flags": {},
+																			"comment": {
+																				"summary": [
+																					{
+																						"kind": "text",
+																						"text": "The workflow's input."
+																					}
+																				]
+																			},
 																			"type": {
 																				"type": "union",
 																				"types": [
@@ -5308,6 +5374,14 @@
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "This method executes a workflow."
+											}
+										]
+									},
 									"type": {
 										"type": "reflection",
 										"declaration": {
@@ -5323,6 +5397,20 @@
 													"variant": "signature",
 													"kind": 4096,
 													"flags": {},
+													"comment": {
+														"summary": [],
+														"blockTags": [
+															{
+																"tag": "@returns",
+																"content": [
+																	{
+																		"kind": "text",
+																		"text": "Details of the workflow's execution, including its result."
+																	}
+																]
+															}
+														]
+													},
 													"typeParameters": [
 														{
 															"id": 18831,
@@ -5355,6 +5443,14 @@
 															"kind": 32768,
 															"flags": {
 																"isRest": true
+															},
+															"comment": {
+																"summary": [
+																	{
+																		"kind": "text",
+																		"text": "The options to execute the workflow."
+																	}
+																]
 															},
 															"type": {
 																"type": "reference",
@@ -5483,6 +5579,14 @@
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "This method retrieves the workflow's name."
+											}
+										]
+									},
 									"type": {
 										"type": "reflection",
 										"declaration": {
@@ -5513,6 +5617,14 @@
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "This method sets the workflow's configurations."
+											}
+										]
+									},
 									"type": {
 										"type": "reflection",
 										"declaration": {
@@ -5561,6 +5673,14 @@
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The workflow's exposed hooks, used to register a handler to consume the hook.\n\nLearn more in [this documentation](https://docs.medusajs.com/v2/advanced-development/workflows/add-workflow-hook#how-to-consume-a-hook)."
+											}
+										]
+									},
 									"type": {
 										"type": "reference",
 										"target": {
