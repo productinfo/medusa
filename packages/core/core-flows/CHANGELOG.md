@@ -1,5 +1,22 @@
 # @medusajs/core-flows
 
+## 2.11.4
+
+### Patch Changes
+
+- [#13977](https://github.com/medusajs/medusa/pull/13977) [`9fdc00350a4aa006e4bfc3eddcc499737f18bdf3`](https://github.com/medusajs/medusa/commit/9fdc00350a4aa006e4bfc3eddcc499737f18bdf3) Thanks [@adrien2p](https://github.com/adrien2p)! - fix(): Lock process payment to prevent ingesting payment processing t…
+
+- [#13876](https://github.com/medusajs/medusa/pull/13876) [`5499cd27494a68836a242cd34eb70fe9c141a713`](https://github.com/medusajs/medusa/commit/5499cd27494a68836a242cd34eb70fe9c141a713) Thanks [@SGFGOV](https://github.com/SGFGOV)! - fix(core-flows): payment error handling
+
+- [#13979](https://github.com/medusajs/medusa/pull/13979) [`a5c6f6b1fb944a730b605a120f84b4f38f608f9f`](https://github.com/medusajs/medusa/commit/a5c6f6b1fb944a730b605a120f84b4f38f608f9f) Thanks [@leobenzol](https://github.com/leobenzol)! - fix(core-flows): update SendNotificationsStepInput
+
+- [#13809](https://github.com/medusajs/medusa/pull/13809) [`a9d33bc8d11637230052f1729e85af5e174b2423`](https://github.com/medusajs/medusa/commit/a9d33bc8d11637230052f1729e85af5e174b2423) Thanks [@willbouch](https://github.com/willbouch)! - fix(core-flows,types): change doc for upload file functions
+
+- [#14022](https://github.com/medusajs/medusa/pull/14022) [`0a0c2f41d8ef2c70f6e3b73251eb34499e83ea32`](https://github.com/medusajs/medusa/commit/0a0c2f41d8ef2c70f6e3b73251eb34499e83ea32) Thanks [@NicolasGorga](https://github.com/NicolasGorga)! - fix(core-flows): avoid overriding customer and region from setPricingContext hook result
+
+- Updated dependencies [[`c2c3ad5ba53f1959422fb2d37297a8de8d714782`](https://github.com/medusajs/medusa/commit/c2c3ad5ba53f1959422fb2d37297a8de8d714782), [`7e3eb6e41316d7b04d32bc7186ed0c78de1aa539`](https://github.com/medusajs/medusa/commit/7e3eb6e41316d7b04d32bc7186ed0c78de1aa539)]:
+  - @medusajs/framework@2.11.4
+
 ## 2.11.3
 
 ### Patch Changes

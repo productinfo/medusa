@@ -1,5 +1,18 @@
 # @medusajs/modules-sdk
 
+## 2.11.4
+
+### Patch Changes
+
+- [#14023](https://github.com/medusajs/medusa/pull/14023) [`7e3eb6e41316d7b04d32bc7186ed0c78de1aa539`](https://github.com/medusajs/medusa/commit/7e3eb6e41316d7b04d32bc7186ed0c78de1aa539) Thanks [@adrien2p](https://github.com/adrien2p)! - chore: cleanup/improve bootstrap
+
+- [#13965](https://github.com/medusajs/medusa/pull/13965) [`5c6c28545c6fe4789afdb8fedcab144eda2a452f`](https://github.com/medusajs/medusa/commit/5c6c28545c6fe4789afdb8fedcab144eda2a452f) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - chore(modules-sdk): db migration concurrency as env var
+
+- Updated dependencies [[`1ea932a56f1d85fd1ebbe4a77f3619fe58d2947a`](https://github.com/medusajs/medusa/commit/1ea932a56f1d85fd1ebbe4a77f3619fe58d2947a), [`e59cdae3365981339d55ec01224f09995250e67d`](https://github.com/medusajs/medusa/commit/e59cdae3365981339d55ec01224f09995250e67d), [`9d9d0397a88c398683f75ac3d6f539c1a686d278`](https://github.com/medusajs/medusa/commit/9d9d0397a88c398683f75ac3d6f539c1a686d278)]:
+  - @medusajs/orchestration@2.11.4
+  - @medusajs/utils@2.11.4
+  - @medusajs/deps@2.11.4
+
 ## 2.11.3
 
 ### Patch Changes
