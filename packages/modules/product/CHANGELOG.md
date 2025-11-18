@@ -1,5 +1,14 @@
 # @medusajs/product
 
+## 2.11.4
+
+### Patch Changes
+
+- [#14026](https://github.com/medusajs/medusa/pull/14026) [`a85778679e99c40421b3be0122d153f991efbc80`](https://github.com/medusajs/medusa/commit/a85778679e99c40421b3be0122d153f991efbc80) Thanks [@shahednasser](https://github.com/shahednasser)! - fix(product, types): add missing types for variant images and thumbnails
+
+- Updated dependencies [[`c2c3ad5ba53f1959422fb2d37297a8de8d714782`](https://github.com/medusajs/medusa/commit/c2c3ad5ba53f1959422fb2d37297a8de8d714782), [`7e3eb6e41316d7b04d32bc7186ed0c78de1aa539`](https://github.com/medusajs/medusa/commit/7e3eb6e41316d7b04d32bc7186ed0c78de1aa539)]:
+  - @medusajs/framework@2.11.4
+
 ## 2.11.3
 
 ### Patch Changes

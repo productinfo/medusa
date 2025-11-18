@@ -1,5 +1,34 @@
 # integration-tests-http
 
+## 1.0.30
+
+### Patch Changes
+
+- Updated dependencies [[`9fdc00350a4aa006e4bfc3eddcc499737f18bdf3`](https://github.com/medusajs/medusa/commit/9fdc00350a4aa006e4bfc3eddcc499737f18bdf3), [`5499cd27494a68836a242cd34eb70fe9c141a713`](https://github.com/medusajs/medusa/commit/5499cd27494a68836a242cd34eb70fe9c141a713), [`6b4f2c1d3282501fce5b9a4f35bbcecf8a18fe93`](https://github.com/medusajs/medusa/commit/6b4f2c1d3282501fce5b9a4f35bbcecf8a18fe93), [`c2c3ad5ba53f1959422fb2d37297a8de8d714782`](https://github.com/medusajs/medusa/commit/c2c3ad5ba53f1959422fb2d37297a8de8d714782), [`ef15868ca8b309dc902470b2da0096255da82c5d`](https://github.com/medusajs/medusa/commit/ef15868ca8b309dc902470b2da0096255da82c5d), [`7e3eb6e41316d7b04d32bc7186ed0c78de1aa539`](https://github.com/medusajs/medusa/commit/7e3eb6e41316d7b04d32bc7186ed0c78de1aa539), [`a5c6f6b1fb944a730b605a120f84b4f38f608f9f`](https://github.com/medusajs/medusa/commit/a5c6f6b1fb944a730b605a120f84b4f38f608f9f), [`aae92d5447c067fce9889403da30f3abcdf5be23`](https://github.com/medusajs/medusa/commit/aae92d5447c067fce9889403da30f3abcdf5be23), [`a9d33bc8d11637230052f1729e85af5e174b2423`](https://github.com/medusajs/medusa/commit/a9d33bc8d11637230052f1729e85af5e174b2423), [`0a0c2f41d8ef2c70f6e3b73251eb34499e83ea32`](https://github.com/medusajs/medusa/commit/0a0c2f41d8ef2c70f6e3b73251eb34499e83ea32), [`1ea932a56f1d85fd1ebbe4a77f3619fe58d2947a`](https://github.com/medusajs/medusa/commit/1ea932a56f1d85fd1ebbe4a77f3619fe58d2947a), [`5c6c28545c6fe4789afdb8fedcab144eda2a452f`](https://github.com/medusajs/medusa/commit/5c6c28545c6fe4789afdb8fedcab144eda2a452f), [`e59cdae3365981339d55ec01224f09995250e67d`](https://github.com/medusajs/medusa/commit/e59cdae3365981339d55ec01224f09995250e67d), [`4bbf0d23674856f2d9fd0a9d137a478bc90b4cdb`](https://github.com/medusajs/medusa/commit/4bbf0d23674856f2d9fd0a9d137a478bc90b4cdb), [`9d9d0397a88c398683f75ac3d6f539c1a686d278`](https://github.com/medusajs/medusa/commit/9d9d0397a88c398683f75ac3d6f539c1a686d278), [`a85778679e99c40421b3be0122d153f991efbc80`](https://github.com/medusajs/medusa/commit/a85778679e99c40421b3be0122d153f991efbc80)]:
+  - @medusajs/medusa@2.11.4
+  - @medusajs/core-flows@2.11.4
+  - @medusajs/framework@2.11.4
+  - @medusajs/promotion@2.11.4
+  - @medusajs/modules-sdk@2.11.4
+  - @medusajs/workflow-engine-inmemory@2.11.4
+  - @medusajs/utils@2.11.4
+  - @medusajs/test-utils@2.11.4
+  - @medusajs/product@2.11.4
+  - @medusajs/api-key@2.11.4
+  - @medusajs/auth@2.11.4
+  - @medusajs/cache-inmemory@2.11.4
+  - @medusajs/customer@2.11.4
+  - @medusajs/event-bus-local@2.11.4
+  - @medusajs/fulfillment@2.11.4
+  - @medusajs/inventory@2.11.4
+  - @medusajs/pricing@2.11.4
+  - @medusajs/fulfillment-manual@2.11.4
+  - @medusajs/region@2.11.4
+  - @medusajs/stock-location@2.11.4
+  - @medusajs/store@2.11.4
+  - @medusajs/tax@2.11.4
+  - @medusajs/user@2.11.4
+
 ## 1.0.29
 
 ### Patch Changes

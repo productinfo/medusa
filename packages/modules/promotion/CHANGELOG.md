@@ -1,5 +1,14 @@
 # @medusajs/promotion
 
+## 2.11.4
+
+### Patch Changes
+
+- [#13999](https://github.com/medusajs/medusa/pull/13999) [`ef15868ca8b309dc902470b2da0096255da82c5d`](https://github.com/medusajs/medusa/commit/ef15868ca8b309dc902470b2da0096255da82c5d) Thanks [@juanzgc](https://github.com/juanzgc)! - Add metadata support in the promotion model.
+
+- Updated dependencies [[`c2c3ad5ba53f1959422fb2d37297a8de8d714782`](https://github.com/medusajs/medusa/commit/c2c3ad5ba53f1959422fb2d37297a8de8d714782), [`7e3eb6e41316d7b04d32bc7186ed0c78de1aa539`](https://github.com/medusajs/medusa/commit/7e3eb6e41316d7b04d32bc7186ed0c78de1aa539)]:
+  - @medusajs/framework@2.11.4
+
 ## 2.11.3
 
 ### Patch Changes

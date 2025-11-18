@@ -1,5 +1,14 @@
 # @medusajs/workflow-engine-inmemory
 
+## 2.11.4
+
+### Patch Changes
+
+- [#14037](https://github.com/medusajs/medusa/pull/14037) [`1ea932a56f1d85fd1ebbe4a77f3619fe58d2947a`](https://github.com/medusajs/medusa/commit/1ea932a56f1d85fd1ebbe4a77f3619fe58d2947a) Thanks [@adrien2p](https://github.com/adrien2p)! - fix(): Identify step that force save checkpoint
+
+- Updated dependencies [[`c2c3ad5ba53f1959422fb2d37297a8de8d714782`](https://github.com/medusajs/medusa/commit/c2c3ad5ba53f1959422fb2d37297a8de8d714782), [`7e3eb6e41316d7b04d32bc7186ed0c78de1aa539`](https://github.com/medusajs/medusa/commit/7e3eb6e41316d7b04d32bc7186ed0c78de1aa539)]:
+  - @medusajs/framework@2.11.4
+
 ## 2.11.3
 
 ### Patch Changes

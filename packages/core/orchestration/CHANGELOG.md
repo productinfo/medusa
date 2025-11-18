@@ -1,5 +1,15 @@
 # @medusajs/orchestration
 
+## 2.11.4
+
+### Patch Changes
+
+- [#14037](https://github.com/medusajs/medusa/pull/14037) [`1ea932a56f1d85fd1ebbe4a77f3619fe58d2947a`](https://github.com/medusajs/medusa/commit/1ea932a56f1d85fd1ebbe4a77f3619fe58d2947a) Thanks [@adrien2p](https://github.com/adrien2p)! - fix(): Identify step that force save checkpoint
+
+- Updated dependencies [[`e59cdae3365981339d55ec01224f09995250e67d`](https://github.com/medusajs/medusa/commit/e59cdae3365981339d55ec01224f09995250e67d), [`9d9d0397a88c398683f75ac3d6f539c1a686d278`](https://github.com/medusajs/medusa/commit/9d9d0397a88c398683f75ac3d6f539c1a686d278)]:
+  - @medusajs/utils@2.11.4
+  - @medusajs/deps@2.11.4
+
 ## 2.11.3
 
 ### Patch Changes

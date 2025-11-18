@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.11.4
+
+### Patch Changes
+
+- [#14042](https://github.com/medusajs/medusa/pull/14042) [`c2c3ad5ba53f1959422fb2d37297a8de8d714782`](https://github.com/medusajs/medusa/commit/c2c3ad5ba53f1959422fb2d37297a8de8d714782) Thanks [@adrien2p](https://github.com/adrien2p)! - chore(): Upgrade vit to non vulnerable one
+
 ## 2.11.3
 
 ### Patch Changes
